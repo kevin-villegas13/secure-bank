@@ -70,6 +70,7 @@ export default function ProductsPages() {
             initial={{ opacity: 0, y: 50 }} // Animación inicial
             animate={{ opacity: 1, y: 0 }} // Animación final
             transition={{ delay: index * 0.2, duration: 0.5 }} // Retraso para que las tarjetas aparezcan una por una
+            className="transform transition duration-300 hover:scale-105 hover:shadow-lg" // Efecto de hover
           >
             <Card>
               <CardHeader>
